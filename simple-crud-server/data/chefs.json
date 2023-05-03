@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "name": "Chef John",
+    "picture": "https://example.com/chef-john.jpg",
+    "bio": "Chef John has been cooking for over 20 years, and specializes in Italian and Mediterranean cuisine.",
+    "likes": 1500,
+    "numRecipes": 10,
+    "yearsExperience": 20,
+    "recipes": [
+      {
+        "name": "Grilled Chicken",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "2 tablespoons olive oil",
+          "2 cloves garlic, minced",
+          "1 teaspoon salt",
+          "1/2 teaspoon black pepper",
+          "1 lemon, juiced"
+        ],
+        "cookingMethod": "1. Preheat grill to medium-high heat. 2. Brush chicken with olive oil and season with garlic, salt, and pepper. 3. Grill chicken for 6-8 minutes per side, or until cooked through. 4. Squeeze lemon juice over chicken and serve.",
+        "rating": 4.5,
+        "favorite": false
+      },
+      {
+        "name": "Pesto Pasta",
+        "ingredients": [
+          "1 pound pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic",
+          "1/4 teaspoon salt"
+        ],
+        "cookingMethod": "1. Cook pasta according to package instructions. 2. In a food processor, combine basil, Parmesan cheese, garlic, and salt. 3. With the motor running, slowly drizzle in the olive oil until a smooth pesto forms. 4. Toss pasta with pesto and serve.",
+        "rating": 4.8,
+        "favorite": false
+      },
+      {
+        "name": "Chocolate Chip Cookies",
+        "ingredients": [
+          "1 cup butter, softened",
+          "1 cup white sugar",
+          "1 cup brown sugar",
+          "2 eggs",
+          "2 teaspoons vanilla extract",
+          "3 cups all-purpose flour",
+          "1 teaspoon baking soda",
+          "2 teaspoons hot water",
+          "1/2 teaspoon salt",
+          "2 cups semisweet chocolate chips"
+        ],
+        "cookingMethod": "1. Preheat oven to 350 degrees F (175 degrees C). 2. Cream together butter, white sugar, and brown sugar until smooth. Beat in eggs one at a time, then stir in vanilla. Dissolve baking soda in hot water and add to batter along with salt. Stir in flour and chocolate chips. 3. Drop by large spoonfuls onto ungreased pans. 4. Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.",
+        "rating": 5.0,
+        "favorite": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chef Jane",
+    "picture": "https://example.com/chef-jane.jpg",
+    "bio": "Chef Jane is a pastry chef with over 15 years of experience, and is known for her decadent desserts and artistic presentation.",
+    "likes": 2500,
+    "numRecipes": 8,
+    "yearsExperience": 15,
+    "recipes": [
+      {
+        "name": "Grilled Chicken",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "2 tablespoons olive oil",
+          "2 cloves garlic, minced",
+          "1 teaspoon salt",
+          "1/2 teaspoon black pepper",
+          "1 lemon, juiced"
+        ],
+        "cookingMethod": "1. Preheat grill to medium-high heat. 2. Brush chicken with olive oil and season with garlic, salt, and pepper. 3. Grill chicken for 6-8 minutes per side, or until cooked through. 4. Squeeze lemon juice over chicken and serve.",
+        "rating": 4.5,
+        "favorite": false
+      },
+      {
+        "name": "Pesto Pasta",
+        "ingredients": [
+          "1 pound pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic",
+          "1/4 teaspoon salt"
+        ],
+        "cookingMethod": "1. Cook pasta according to package instructions. 2. In a food processor, combine basil, Parmesan cheese, garlic, and salt. 3. With the motor running, slowly drizzle in the olive oil until a smooth pesto forms. 4. Toss pasta with pesto and serve.",
+        "rating": 4.8,
+        "favorite": false
+      },
+      {
+        "name": "Chocolate Chip Cookies",
+        "ingredients": [
+          "1 cup butter, softened",
+          "1 cup white sugar",
+          "1 cup brown sugar",
+          "2 eggs",
+          "2 teaspoons vanilla extract",
+          "3 cups all-purpose flour",
+          "1 teaspoon baking soda",
+          "2 teaspoons hot water",
+          "1/2 teaspoon salt",
+          "2 cups semisweet chocolate chips"
+        ],
+        "cookingMethod": "1. Preheat oven to 350 degrees F (175 degrees C). 2. Cream together butter, white sugar, and brown sugar until smooth. Beat in eggs one at a time, then stir in vanilla. Dissolve baking soda in hot water and add to batter along with salt. Stir in flour and chocolate chips. 3. Drop by large spoonfuls onto ungreased pans. 4. Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.",
+        "rating": 5.0,
+        "favorite": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Chef Michael",
+    "picture": "https://example.com/chef-michael.jpg",
+    "bio": "Chef Michael is a barbecue expert with over 30 years of experience, and has won numerous awards for his mouth-watering ribs and brisket.",
+    "likes": 500,
+    "numRecipes": 5,
+    "yearsExperience": 30,
+    "recipes": [
+      {
+        "name": "Grilled Chicken",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "2 tablespoons olive oil",
+          "2 cloves garlic, minced",
+          "1 teaspoon salt",
+          "1/2 teaspoon black pepper",
+          "1 lemon, juiced"
+        ],
+        "cookingMethod": "1. Preheat grill to medium-high heat. 2. Brush chicken with olive oil and season with garlic, salt, and pepper. 3. Grill chicken for 6-8 minutes per side, or until cooked through. 4. Squeeze lemon juice over chicken and serve.",
+        "rating": 4.5,
+        "favorite": false
+      },
+      {
+        "name": "Pesto Pasta",
+        "ingredients": [
+          "1 pound pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic",
+          "1/4 teaspoon salt"
+        ],
+        "cookingMethod": "1. Cook pasta according to package instructions. 2. In a food processor, combine basil, Parmesan cheese, garlic, and salt. 3. With the motor running, slowly drizzle in the olive oil until a smooth pesto forms. 4. Toss pasta with pesto and serve.",
+        "rating": 4.8,
+        "favorite": false
+      },
+      {
+        "name": "Chocolate Chip Cookies",
+        "ingredients": [
+          "1 cup butter, softened",
+          "1 cup white sugar",
+          "1 cup brown sugar",
+          "2 eggs",
+          "2 teaspoons vanilla extract",
+          "3 cups all-purpose flour",
+          "1 teaspoon baking soda",
+          "2 teaspoons hot water",
+          "1/2 teaspoon salt",
+          "2 cups semisweet chocolate chips"
+        ],
+        "cookingMethod": "1. Preheat oven to 350 degrees F (175 degrees C). 2. Cream together butter, white sugar, and brown sugar until smooth. Beat in eggs one at a time, then stir in vanilla. Dissolve baking soda in hot water and add to batter along with salt. Stir in flour and chocolate chips. 3. Drop by large spoonfuls onto ungreased pans. 4. Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.",
+        "rating": 5.0,
+        "favorite": false
+      }
+    ]
+  }
+]
