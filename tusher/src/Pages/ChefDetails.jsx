@@ -1,13 +1,38 @@
-import React from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import ChefRecipes from "./ChefRecipes";
 import RecipesDetails from "./RecipesDetails";
+import Loader from "../Components/Loader";
 
 function ChefDetails() {
-  const singleChef = useLoaderData();
-  console.log(singleChef);
+  const { id: chefId } = useParams();
+  console.log(chefId);
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`http://localhost:5000/chefs/${chefId}`);
+      const data = await response.json();
+      setData(data);
+      setLoading(false);
+    }
+    fetchData();
+  }, []);
+  console.log(data);
+  if (loading) {
+    return (
+      <div className="grid grid-cols-2 gap-3 my-3">
+        {" "}
+        <Loader />
+        <Loader />
+        <Loader />
+        <Loader />
+      </div>
+    );
+  }
   const { id, name, picture, likes, numRecipes, yearExperience, recipes } =
-    singleChef;
+    data;
   return (
     <div className="my-20 flex flex-col items-center justify-center mt-10">
       <div className="max-w-xs rounded-md shadow-md bg-emerald-300 dark:text-gray-100  mb-10">
